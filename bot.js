@@ -32,5 +32,5 @@ client.on('message', message => {
   client.user.setAvatar(argresult);
     message.channel.send(`**avatar ✅* :** `);
   }
-  });client.login("BOT_TOKEN") 
+  });client.login("process.env.BOT_TOKEN") 
  
